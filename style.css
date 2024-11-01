@@ -1,0 +1,267 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-book-my-show{
+    display: flex;
+    vertical-align: top;
+}
+.logo-img{
+    width: 120px;
+    height: 35px;
+    margin: 10px 30px 10px 120px;
+}
+.menu-logo{
+    height: 25px;
+    width: 25px;
+    opacity: 0.5;
+    margin-top: 16px;
+}
+.search-bar{
+    width: 550px;
+    height: 32px;
+    margin: 10px 310px 10px 5px;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 4px;
+}
+.search-bar::placeholder{
+    padding-left: 10px;
+    color: rgb(161, 151, 151);
+    font-size: 14px;
+}
+.button1{
+    background-color: inherit;
+    border: none;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.dropdown-img{
+    opacity: 0.8;
+    height: 18px;
+    width: 18px;
+    margin: 20px 35px 0px 10px;
+}
+.button2{
+    height: 25px;
+    width: 67px;
+    border: none;
+    background-color: rgb(248, 68, 100);
+    color: white;
+    margin: 16px 20px 0px 0px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.navbar{
+    background-color: rgb(245, 245, 245);
+    height: 35px;   
+    border-bottom: 0.9px solid rgb(216, 211, 211);
+}
+.navbar ul{
+    display: inline;
+}
+.navbar ul li{
+    display: inline;
+    list-style: none;
+}
+.list-one{
+    margin: 5px 0px 5px 100px;
+}
+.list-one li{
+    padding: 5px 10px;
+    font-size: 14px;
+    color: rgb(101, 97, 97);
+}
+.list-two{
+    margin: 5px 50px 5px 550px;
+}
+.list-two li{
+    padding: 5px 10px;
+    font-size: 13px;
+    color: rgb(101, 97, 97);
+}
+.scrolling-image{
+    display: inline-block;
+}
+.rec-movie-div-one{
+    margin: 0px 150px;
+    margin-bottom: 100px;;
+}
+.rec-movie-div-one h2{
+    margin-bottom: 10px;
+}
+.rec-movie-div-one div{
+    display: inline-block;
+    padding-right: 17px;
+}
+.imgage-one-des img{
+    height: 400px;
+    width: 220px;
+    border-radius: 7px;
+}
+.p1{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(68, 65, 65);
+    margin: 10px 0px;
+}
+.p2{
+    font-size: 16px;
+    color: rgb(149, 145, 145);
+}
+.poster{
+    margin: 60px 40px 60px 0px;
+}
+.poster img{
+    width: 1200px;
+}
+.events img{
+    height: 210px;
+    width: 210px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.rec-movie-div-two{
+    background-color: rgb(43, 49, 72);
+    height: 670px;
+}
+.rec-movie-div-two > img{
+    margin: 0px 150px;  
+}
+.premiere-div-one{
+    margin: 0px 150px;
+    color: white;
+    margin-top: 15px;
+}
+.premiere-div-one p{
+    font-size: 14px;
+    padding-top: 5px;
+}
+.premiere-div-two{
+    margin: 20px 150px;
+}
+.premiere-div-two div{
+    display: inline-block;
+    padding-right: 17px;
+}
+.imgage-two-des img{
+    height: 350px;
+    width: 220px;
+    border-radius: 7px;
+}
+.p3{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0px;
+}
+.p4{
+    font-size: 16px;
+    color: white;
+}
+.trending{
+    margin: 0px 150px;
+    text-align: left;
+}
+.trending h2{
+    padding-bottom: 15px;
+}
+.trending button{
+    color: rgb(248, 68, 100);
+    padding: 20px 27px;
+    border: none;
+    background-color: rgb(234, 232, 232);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.trending button span{
+    color: rgb(97, 96, 96);
+    display: block;
+    padding-top: 5px;
+}
+.footer-div{
+    background-color: #333;
+    height: 1400px;
+}
+.footer-div div{
+    
+}
+.section1{
+    margin: 0px 150px;
+    padding: 20px 0px;
+    display: flex;
+    vertical-align: top;
+}
+.section1 p{
+    padding: 12px 10px;
+    color: white;
+    font-size: 16px;
+}
+.section1 button{
+    color: white;
+    background-color: rgb(236, 94, 113);
+    border: none;
+    width: 140px;
+    margin-left: 200px;
+    font-size: 16px;
+}
+.section2{
+    background-color: rgb(108, 107, 107);
+    height: 95px;
+    margin-bottom: 20px;
+}
+.section2 svg{
+    display: inline;
+    margin: 10px 210px 0px 210px;
+    height: 50px;
+    width: 50px;
+}
+.section2 p{
+    display: inline-block;
+    font-size: 11px;
+    color: rgb(221, 218, 218);
+    margin: 10px 140px 0px 170px;
+}
+.section3{
+    margin: 0px 150px;
+}
+.p5{
+    margin-top: 25px;
+    color: rgb(166, 161, 161);
+    font-size: 12px;
+}
+.p6{
+    margin-top: 15px;
+    color: rgb(108, 107, 107);
+    font-size: 11px;
+}
+.section4{
+    display: flex;
+    margin: 40px 0px;
+}
+.section4 p{
+    color: rgb(108, 107, 107);
+}
+.section5{
+    margin: 0px 0px 0px 620px;
+}
+.section5 svg{
+    height: 40px;
+    width: 40px;
+    /* opacity: 0.6; */
+    padding: 2px;
+}
+.section5 svg:hover{
+    opacity: 0.4;
+}
+.section6{
+    margin: 30px 150px;
+}
+.section6 p{
+    text-align: center;
+    color: white;
+    color: rgb(108, 107, 107);
+    padding: 5px 0px;
+    font-size:11px;
+}
